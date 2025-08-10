@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Product Studio - Агенты ИИ нового поколения</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">AI Product Studio</div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#workflow">Этапы работы</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle">
+                <i data-feather="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-subtitle">AI-POWERED SOLUTIONS</div>
+            <h1 class="hero-title">Создаем то, что действительно работает</h1>
+            <p class="hero-description">Трансформируйте свой бизнес с помощью AI автоматизации, предиктивной аналитики и оптимизации в реальном времени, которая мгновенно адаптируется к изменениям рынка.</p>
+            <div class="hero-buttons">
+                <button class="cta-button" onclick="scrollToSection('contact')">Связаться с нами</button>
+            </div>
+        </div>
+        
+        <!-- Geometric shapes -->
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <h2 class="section-title">Наши AI-агенты</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i data-feather="bar-chart-2"></i>
+                </div>
+                <h3 class="service-title">AI-аналитик отзывов</h3>
+                <p class="service-description">Анализирует тексты отзывов, определяет тональность и выявляет ключевые темы. Автоматизирует обработку фидбека клиентов.</p>
+            </div>
+            <div class="service-card active">
+                <div class="service-icon">
+                    <i data-feather="zap"></i>
+                </div>
+                <h3 class="service-title">Автоматический копирайтер</h3>
+                <p class="service-description">Создает уникальный контент для вашего бизнеса с помощью передовых алгоритмов машинного обучения.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i data-feather="message-circle"></i>
+                </div>
+                <h3 class="service-title">Умный чат-бот поддержки</h3>
+                <p class="service-description">Обеспечивает круглосуточную поддержку клиентов с интеллектуальными ответами на вопросы.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i data-feather="file-text"></i>
+                </div>
+                <h3 class="service-title">AI-ассистент документооборота</h3>
+                <p class="service-description">Автоматизирует обработку документов и оптимизирует рабочие процессы вашей компании.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i data-feather="trending-up"></i>
+                </div>
+                <h3 class="service-title">Прогнозирующий аналитик</h3>
+                <p class="service-description">Предсказывает тренды и помогает принимать обоснованные решения на основе данных.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i data-feather="image"></i>
+                </div>
+                <h3 class="service-title">Генератор коммерческих изображений</h3>
+                <p class="service-description">Создает уникальные визуальные материалы для ваших маркетинговых кампаний.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow Section -->
+    <section id="workflow" class="section">
+        <h2 class="section-title"> Как мы работаем</h2>
+        <div class="workflow-container">
+            <div class="workflow-steps">
+                <div class="workflow-step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Получили запрос</h3>
+                    <p class="step-description">Анализируем ваши потребности и формируем техническое задание</p>
+                </div>
+                <div class="workflow-step active">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Создали AI агента</h3>
+                    <p class="step-description">Разрабатываем, тестируем и настраиваем AI-решение под ваши задачи</p>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Утверждаем</h3>
+                    <p class="step-description">Согласовываем с вами разработанное AI-решение </p>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Сопровождаем</h3>
+                    <p class="step-description">Обеспечиваем техническую поддержку и обновления</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+        <h2 class="section-title">FAQ</h2>
+        <div class="faq-container">
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-title">
+                        AI-аналитик отзывов
+                        <i data-feather="chevron-down" class="accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        Автоматизирует обработку фидбека клиентов, экономя сотни часов ручного анализа.
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title">
+                        Автоматический копирайтер
+                        <i data-feather="chevron-down" class="accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        Экономит время на написание текстов и обеспечивает качественный контент для маркетинга.
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title">
+                        Умный чат-бот поддержки
+                        <i data-feather="chevron-down" class="accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        Снижает нагрузку на службу поддержки и повышает удовлетворенность клиентов.
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title">
+                        AI-ассистент документооборота
+                        <i data-feather="chevron-down" class="accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        Ускоряет документооборот и снижает количество ошибок.
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title">
+                        Прогнозирующий аналитик
+                        <i data-feather="chevron-down" class="accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        Улучшает планирование и снижает риски в бизнесе.
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title">
+                        Генератор коммерческих изображений
+                        <i data-feather="chevron-down" class="accordion-icon"></i>
+                    </div>
+                    <div class="accordion-content">
+                        Экономит бюджет на дизайн и ускоряет создание контента.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">О нас</h2>
+        <div class="about-content">
+            <p class="about-description">
+                AI Product Studio - молодое агентство, специализирующееся на создании интеллектуальных AI-агентов. Мы объединяем передовые технологии машинного обучения и нейронных сетей для решения сложных бизнес-задач.
+            </p>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">довольных клиентов</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">40-60%</div>
+                    <div class="stat-label">повышение эффективности</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">поддержка</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="contact-cta">
+            <h2 class="contact-title">Готовы преобразовать свой бизнес?</h2>
+            <p class="contact-subtitle">Присоединяйтесь к компаниям, которые уже повысили эффективность с помощью наших AI-агентов</p>
+        </div>
+        
+        <div class="contact-form">
+            <h3 class="form-title">Свяжитесь с нами</h3>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Телефон</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Почта</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="question">Вопрос</label>
+                    <textarea id="question" name="question" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-column">
+                <h4>Продукт</h4>
+                <a href="#services">Услуги</a>
+                <a href="#workflow">Этапы работы</a>
+                <a href="#faq">FAQ</a>
+                <a href="#">Интеграции</a>
+            </div>
+            <div class="footer-column">
+                <h4>Ресурсы</h4>
+                <a href="#">Блог</a>
+                <a href="#">Гайды</a>
+                <a href="#">Центр помощи</a>
+                <a href="#">Сообщество</a>
+            </div>
+            <div class="footer-column">
+                <h4>Компания</h4>
+                <a href="#about">О нас</a>
+                <a href="#">Карьера</a>
+                <a href="#contact">Контакты</a>
+                <a href="#">Партнёрство</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="legal-links">
+                <a href="#">ДОГОВОР ПУБЛИЧНОЙ ОФЕРТЫ</a>
+                <a href="#">СОГЛАСИЕ НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ</a>
+                <a href="#">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+            </div>
+            <div class="copyright">© 2025 AI Product Studio. Все права защищены.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html> 
